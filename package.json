@@ -1,0 +1,22 @@
+{
+  "name": "lang-compress",
+  "version": "1.0.0",
+  "description": "Compressor for texts preserving information with least possible characters",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "build": "tsc",
+    "lint": "eslint src"
+  },
+  "author": "Maximilian Lösch",
+  "license": "ISC",
+  "devDependencies": {
+    "@tsconfig/node18": "^18.2.2",
+    "@types/node": "^18.18.2",
+    "@typescript-eslint/eslint-plugin": "^6.7.5",
+    "@typescript-eslint/parser": "^6.7.5",
+    "eslint": "^8.51.0",
+    "typescript": "^5.2.2",
+    "ts-node": "^10.9.1"
+  }
+}
